@@ -1,6 +1,6 @@
 # Client side setup
 
-## Below will list out all the steps needed to remotly manage windows hyper-v server 2019
+## Below will list out all the steps needed to remotely manage windows hyper-v server 2019
   >
   > I will be managing my build server from a windows 10 enterprise edition VM running of an ESXI hypervisor.
   >
