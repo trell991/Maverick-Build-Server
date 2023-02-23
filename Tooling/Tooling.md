@@ -10,7 +10,7 @@
 - Oh-My-Posh
 - Docker Desktop
 - Chocolatey
-### Herre is a  Chocolatey script to install all of the tooling:
+### Herre is a  Chocolatey script to install all of the tooling. You can paste this into powershell ISE:
 
 
 ```
@@ -22,4 +22,3 @@ choco install microsoft-windows-terminal --version 1.16.10261.0 -y
 choco install git --version 2.39.2 -y
 choco install oh-my-posh --version 14.8.0 -y
 choco install docker-desktop --version 4.16.3 -y
-
