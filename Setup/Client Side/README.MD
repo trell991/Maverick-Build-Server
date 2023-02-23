@@ -6,8 +6,8 @@
   >
 ### Lets get started
 
-- First navigate to progreams and features on the client machine. Locate the hyper v folder and expand and enable all of the check boxes. Apply the changes and windows will reboot and install the changes.
-  - Next you will need to edit the hosts file and add your servers ipaddress and server name.
+- First navigate to programs and features on the client machine. Locate the hyper v folder and expand and enable all of the check boxes. Apply the changes and windows will reboot and install the changes.
+  - Next you will need to edit the hosts file and add your servers ip address and server name.
   - Next run some commands
 
   ```
