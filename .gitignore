@@ -206,4 +206,4 @@ config.default.yml
 arguments.txt
 .env
 *.swp
-maria.jsons
+maria.json
