@@ -2,18 +2,18 @@
 
 ## In order to remotely manage windows hyper v server 2019 you need to complete a few quick steps lets get started
 >
-> note in order to remotely manage hyper-v server 2019 you must be using windows 10 pro or enterprise edition. I will be using the enterprise edition.
+> Note in order to remotely manage hyper-v server 2019 you must be using windows 10 pro or enterprise edition. I will be using the enterprise edition.
 >
 ### Lets get started
 
-- First ensure the network profile on hyper v server 2019 is set to private
+- First ensure the network profile on hyper v server 2019 is set to ```private```
   > run
 
    ```
     Get-NetAdapter| Get-NetConnectionProfile
     ```
 
-  > If the Network Category is private run
+  > If the Network Category is ```public``` run
 
    ```
     Set-NetConnectionProfile -InterfaceAlias "vEthernet (LAN)" -NetworkCategory Private
